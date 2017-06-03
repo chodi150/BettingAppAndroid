@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
+        android:id="@+id/teamsTxt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ToggleButton
+        android:text="Team1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Team 1"
+        android:textOn="Team 1"
+
+        android:id="@+id/team1Tbtn"
+        android:layout_alignBaseline="@+id/team2Tbtn"
+        android:layout_alignBottom="@+id/team2Tbtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ToggleButton
+        android:text="Team2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/team2Tbtn"
+        android:textOff="Team 2"
+        android:textOn="Team 2"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/teamsTxt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
